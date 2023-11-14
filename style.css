@@ -1,0 +1,112 @@
+/* DEFAULTS
+
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        */
+
+* {
+  font-weight: lighter;
+}
+
+/* 
+body {
+  background-image: url("img/snowdon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.container {
+  background-color: #fcfcfc;
+  margin: 0 3em;
+  border-top: #aac91c 1.5px solid;
+}
+
+header {
+  text-align: center;
+  font-family: serif;
+  background-color: #fcfcfc;
+  padding: 3em 0 4em 0;
+  letter-spacing: 0.25em;
+  margin: 0 3em;
+  margin-bottom: 2em;
+  border-top: #aac91c 1.5px solid;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: rgb(70, 70, 70);
+}
+
+h4 {
+  font-family: serif;
+  font-size: 18px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #aac91c;
+  margin-right: 0.75em;
+}
+
+nav a:hover {
+  color: rgb(70, 70, 70);
+}
+
+.img-row-1 {
+  padding: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.quote-1 {
+  width: 60%;
+
+  background-color: #ffffff;
+  font-family: serif;
+  padding: 1em 3em 1em 6em;
+  text-align: center;
+  border-top: #aac91c 1.5px solid;
+  border-right: #a9c91cde 6px solid;
+  margin: 4em 0;
+  float: right;
+}
+
+.quote-1 p {
+  color: #aac91c;
+  font-style: italic;
+}
+
+.img-row-2 {
+  clear: both;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+
+  padding-bottom: 3em;
+}
+
+.quote-2 {
+  width: 60%;
+  background-color: #ffffff;
+  font-family: serif;
+  padding: 1em 6em 1em 3em;
+  text-align: center;
+  margin: 4em 0;
+  border-top: #aac91c 1.5px solid;
+  border-left: #a9c91cde 6px solid;
+}
+
+.quote-2 p {
+  color: #aac91c;
+  font-style: italic;
+}
+
+.copyright {
+  letter-spacing: 1.5px;
+  font-family: serif;
+  font-size: 14px;
+}
